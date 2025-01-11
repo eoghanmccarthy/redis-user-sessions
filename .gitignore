@@ -6,6 +6,9 @@ bun.lockb
 
 node_modules
 
+# Redis
+dump.rdb
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
