@@ -14,8 +14,10 @@ Track user sessions and online status.
 ## Usage
 
 ```bash
+# Run in first terminal (skip if Redis already running)
 redis-server
 
+# Run in second terminal
 bun run dev
 
 # Login
