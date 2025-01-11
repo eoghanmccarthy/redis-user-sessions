@@ -20,6 +20,8 @@ redis-server
 # Run in second terminal
 bun run dev
 
+# Run these commands in third terminal
+
 # Login
 curl -X POST http://localhost:3000/login \
   -H "Content-Type: application/json" \
