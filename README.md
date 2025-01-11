@@ -11,19 +11,14 @@ Track user sessions and online status.
 2. "Online" often means "actively using the app" while "logged in" means "has valid authentication". A user might be logged in but inactive
 3. Sessions typically last hours or days, while online status should timeout after minutes of inactivity without user interaction
 
-## Usage
-
 ```bash
-# Mac
-brew install redis
-
 # In first terminal:
 redis-server
 
 # In second terminal:
 bun run dev
 
-redis-cli FLUSHALL
+## Usage
 
 # Login
 curl -X POST http://localhost:3000/login \
